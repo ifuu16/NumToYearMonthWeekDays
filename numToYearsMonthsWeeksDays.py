@@ -16,7 +16,15 @@ while True:
         month,m_remainder = divmod(y_remainder, 30)
     
         week,day = divmod(m_remainder, 7)
-        print("equals",year,"year",month,"months",week,"weeks",day,"days")
+        pass
+    
+        if year == 1 or 0:
+            quantity = "year"
+        else:
+            quantity = "years"
+
+
+        print("equals",year,quantity,month,"months",week,"weeks",day,"days")
 
    
   
